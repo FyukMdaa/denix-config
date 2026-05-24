@@ -50,5 +50,22 @@ delib.module {
       boot.kernelPackages =
         if isCachyos then cachyosPkg
         else nonCachyosPkg;
+
+      boot.kernelPatches = [{
+            name = "fix-nfs-interactive";
+            patch = null;
+            structuredExtraConfig = with lib.kernel; {
+              NFS_FS = module;           # m
+              NFS_V2 = module;           # m
+              NFS_V3 = yes;              # y
+              NFS_V3_ACL = yes;          # y
+              NFS_V4 = yes;              # y
+              NFS_SWAP = yes;            # y
+              NFS_V4_0 = yes;            # y
+              # 出てきたら追加していく
+              # NFS_V4_1 = yes;
+              # NFS_V4_2 = yes;
+            };
+          }];
     };
 }
