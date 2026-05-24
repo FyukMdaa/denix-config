@@ -36,6 +36,10 @@
       url = "github:sodiboo/niri-flake";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    mango-ext = {
+      url = "github:ernestoCruz05/mango-ext";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
     floorp.url = "github:fyukmdaa/floorp-flake";
     twist.url = "github:emacs-twist/twist.nix";
     emacs-config.url = "github:fyukmdaa/emacs-config";    
@@ -65,7 +69,7 @@
                 enable = true;
                 # 利用したいロールをすべて定義します
                 features = [ "nixos" "lin-gui" "mangowc" "draw" "dtm" "server" ];
-                # 各名称に対して "{feature}Featured" というブール値が自動生成されます [1]
+                # 各名称に対して "{feature}Featured" というブール値が自動生成されます
               };
             })
           ];

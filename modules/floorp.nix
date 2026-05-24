@@ -1,7 +1,10 @@
 { delib, pkgs, ... }:
 delib.module {
   name = "programs.floorp";
-  options = delib.singleEnableOption false;
+
+  options = { myconfig, ... }: {
+    enable = delib.boolOption myconfig.hosts.${myconfig.host}.lin-guiFeatured;
+  };
 
   home.ifEnabled = {
     home.packages = [ pkgs.floorp-bin ];

@@ -11,7 +11,7 @@ delib.host {
   };
 
   type = "laptop";
-  features = [ "nixos" "lin-gui" "lin-cli" ];
+  features = [ "nixos" "lin-gui" "lin-cli" "mangowc" ];
     
   shared.myconfig = {
   	boot.loader = "systemd-boot";
@@ -28,9 +28,6 @@ delib.host {
     powermanager = {
       enable = true;
       type = "auto-cpufreq";
-    };
-    programs = {
-    	floorp.enable = true;
     };
     hardware = {
     	open_tablet_driver.enable = true;
