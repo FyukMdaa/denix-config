@@ -18,7 +18,7 @@ delib.host {
   	kernel =  {
       variant   = "cachyos-latest";
       useLTO    = true;
-      archOpt   = "zen4";
+      archOpt   = "generic";
     };
     graphics = {
       enable = true;
