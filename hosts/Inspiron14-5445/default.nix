@@ -16,9 +16,9 @@ delib.host {
   shared.myconfig = {
   	boot.loader = "systemd-boot";
   	kernel =  {
-      variant   = "cachyos-latest";
-      useLTO    = true;
-      archOpt   = "generic";
+      variant   = "latest";
+      # useLTO    = true;
+      # archOpt   = "zen4";
     };
     graphics = {
       enable = true;

@@ -2,9 +2,7 @@
 delib.module {
   name = "programs.mango-ext";
 
-  options = { myconfig, ... }: {
-    enable = delib.boolOption myconfig.hosts.${myconfig.host}.mangowcFeatured;
-  };
+  options = { myconfig, ... } @ args: delib.singleEnableOption myconfig.host.mangowcFeatured args;
 
   nixos.always = {
     imports = [

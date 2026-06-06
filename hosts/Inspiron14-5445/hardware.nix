@@ -14,7 +14,7 @@ delib.host {
       initrd.availableKernelModules = [
         "nvme"
         "xhci_pci"
-        "usb_strage"
+        "usb_storage"
         "usbhid"
         "sd_mod"
       ];
