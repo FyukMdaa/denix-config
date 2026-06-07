@@ -2,7 +2,9 @@
 delib.module {
   name = "programs.mango-ext";
 
-  options = { myconfig, ... } @ args: delib.singleEnableOption myconfig.host.mangowcFeatured args;
+  options = delib.moduleOptions ({ myconfig, ... }: {  
+    enable = delib.boolOption myconfig.host.mangowcFeatured;  
+  });
 
   nixos.always = {
     imports = [
@@ -16,7 +18,19 @@ delib.module {
     ];
   };
 
-  nixos.ifEnabled ={
+  nixos.ifEnabled = {
   	programs.mango-ext.enable = true;
+  };
+  home.ifEnabled = {
+  	wayland.windowManager.mango-ext.settings = {
+  		bind = [
+  			"SUPER,Q,killclient"
+  			"SUPER,Return,spawn,ghostty"
+  			"SUPER+SHIFT,e,quit"
+  			"SUPER,r,reload_config"
+  			"SUPER,n,switch_layout"
+  		];
+  		circle_layout = "tile,scroller,canvas,dwindle";
+  	};
   };
 }

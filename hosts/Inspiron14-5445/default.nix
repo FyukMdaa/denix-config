@@ -11,7 +11,7 @@ delib.host {
   };
 
   type = "laptop";
-  features = [ "nixos" "lin-gui" "lin-cli" "mangowc" ];
+  features = [ "cli" "gui" "mangowc" "draw" ];
     
   shared.myconfig = {
   	boot.loader = "systemd-boot";
@@ -24,13 +24,9 @@ delib.host {
       enable = true;
       type = "amd";
     };
-    bluetooth.enable = true;
     powermanager = {
       enable = true;
       type = "auto-cpufreq";
-    };
-    hardware = {
-    	open_tablet_driver.enable = true;
     };
   };
 }

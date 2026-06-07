@@ -32,10 +32,6 @@
         inputs.nixpkgs.follows = "nixpkgs";
     };
     nixos-facter.url = "github:numtide/nixos-facter-modules";
-    niri = {
-      url = "github:sodiboo/niri-flake";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
     mango-ext = {
       url = "github:ernestoCruz05/mango-ext";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -68,7 +64,7 @@
               hosts.features = {
                 enable = true;
                 # 利用したいロールをすべて定義します
-                features = [ "nixos" "lin-gui" "lin-cli" "mangowc" "draw" "dtm" "server" ];
+                features = [ "gui" "cli" "mangowc" "draw" "dtm" "server" ];
                 # 各名称に対して "{feature}Featured" というブール値が自動生成されます
               };
             })

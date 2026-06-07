@@ -1,8 +1,10 @@
 { delib, ... }:
 delib.module {
   name = "bluetooth";
-  options = delib.singleEnableOption false;
-
+  options = delib.moduleOptions ({ myconfig, ... }: {  
+    enable = delib.boolOption myconfig.host.isLaptop;  
+  });
+  
   nixos.ifEnabled = {
     hardware.bluetooth = {
       enable = true;
