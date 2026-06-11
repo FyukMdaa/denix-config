@@ -1,4 +1,3 @@
-``` nix
 { delib, pkgs, ... }:
 delib.module {
   name = "template";
@@ -16,4 +15,3 @@ delib.module {
   home.ifDisabled = {};
   home.allways = {};
 }
-```

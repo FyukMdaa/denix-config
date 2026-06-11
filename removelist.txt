@@ -29,20 +29,16 @@ REMOVED
 [R.] bibata-cursors                                                       2.0.7
 [R.] bison                                                                3.8.2
 [R-] bluetui                                                              0.8.1
-[R.] boost                                                                1.89.0
 [R.] bootloadhid                                                          0-unstable-2012-12-08
 [R.] breeze                                                               6.6.3
 [R.] brightnessctl                                                        0.5.1
 [R-] btop                                                                 1.4.6
-[R-] cachix                                                               1.11.0-bin
 [R.] cairomm                                                              1.14.5, 1.18.0
 [R.] cdparanoia-III                                                       10.2
 [R.] chafa                                                                1.18.1, 1.18.1-bin
 [R.] chromium                                                             146.0.7680.164, 146.0.7680.164-sandbox
 [R.] chromium-unwrapped                                                   146.0.7680.164, 146.0.7680.164-sandbox
 [R.] client.conf                                                          <none>
-[R.] comma                                                                2.3.3
-[R-] comma-with-db                                                        2.3.3
 [R.] config.json                                                          <none>
 [R-] cpupower                                                             6.19.9
 [R.] cups-files.conf                                                      <none>
@@ -53,7 +49,6 @@ REMOVED
 [R.] cupsd.conf                                                           <none>
 [R.] curl-impersonate                                                     1.5.1
 [R.] ddcutil                                                              2.2.6
-[R-] deadnix                                                              1.3.1
 [R.] dee-unstable                                                         2017-06-16
 [R.] deno                                                                 2.6.10
 [R.] desktops                                                             <none>
@@ -85,7 +80,6 @@ REMOVED
 [R.] freeglut                                                             3.6.0
 [R.] freeglut-mupdf                                                       3.0.0-r13ae6aa2c2f9a7b4266fc2e6116c876237f40477
 [R.] frei0r-plugins                                                       2.5.0
-[R.] fzy                                                                  1.1
 [R.] gcc-arm-embedded                                                     15.2.rel1
 [R.] gcr                                                                  3.41.2, 4.4.0.1
 [R.] gd                                                                   2.3.3
@@ -97,9 +91,6 @@ REMOVED
 [R.] ghostscript-with-X                                                   10.06.0, 10.06.0-fonts
 [R.] ghq                                                                  1.9.4
 [R.] girara                                                               2026.02.04
-[R-] git                                                                  2.53.0, 2.53.0-doc
-[R.] git-lfs                                                              3.7.1
-[R.] git-minimal                                                          2.53.0
 [R.] git.yazi                                                             26.1.22-unstable-2026-02-27
 [R.] gitui                                                                0.28.0
 [R.] gitui-key-config.ron                                                 <none>
@@ -136,17 +127,13 @@ REMOVED
 [R.] hm_config.kdl                                                        <none>
 [R.] hm_fontconfigconf.d10hmfonts.conf                                    <none>
 [R.] hm_fontconfigconf.d52hmdefaultfonts.conf                             <none>
-[R.] hm_gitconfig                                                         <none>
 [R.] hm_homefyukmdaa.configripgrepripgreprc                               <none>
 [R.] hm_tmuxtmux.conf                                                     <none>
-[R.] hm_woficonfig                                                        <none>
 [R-] htop                                                                 3.4.1, 3.4.1-man
-[R.] hwloc                                                                2.13.0-lib
 [R.] hyphen                                                               2.8.8
 [R.] ijs                                                                  10.06.0
 [R.] imagemagick                                                          7.1.2-17
 [R.] imv                                                                  5.0.1, 5.0.1-man
-[R.] index-x86_64-linux-small                                             <none>
 [R.] iniparser                                                            4.2.6
 [R.] isl                                                                  0.20
 [R.] jbig2dec                                                             0.20
@@ -175,7 +162,6 @@ REMOVED
 [R.] libayatana-appindicator                                              0.5.92
 [R.] libayatana-indicator                                                 0.9.4
 [R.] libbacktrace                                                         0-unstable-2024-03-02
-[R.] libblake3                                                            1.8.3
 [R.] libblockdev                                                          3.4.0
 [R.] libbytesize                                                          2.12
 [R.] libcdio                                                              2.3.0-lib
@@ -189,7 +175,6 @@ REMOVED
 [R.] libelf                                                               0.8.13
 [R.] libexif                                                              0.6.25
 [R.] libftdi                                                              1.5-unstable-2023-12-21
-[R.] libgit2                                                              1.9.2-lib
 [R.] libgphoto2                                                           2.5.33
 [R.] libgsf                                                               1.14.55
 [R.] libgxps                                                              0.3.2
@@ -235,7 +220,6 @@ REMOVED
 [R.] libyuv                                                               1908
 [R.] libz                                                                 1.2.8.2025.03.07
 [R.] lksctp-tools                                                         1.0.21
-[R.] llhttp                                                               9.3.1
 [R.] lmdb                                                                 0.9.35
 [R.] lndir                                                                1.0.5
 [R.] localsearch                                                          3.10.2
@@ -245,7 +229,6 @@ REMOVED
 [R.] mariadb-connector-odbc                                               3.2.6
 [R.] mdadm                                                                4.4
 [R.] media-player-info                                                    26
-[R.] mercurial                                                            7.1.2
 [R-] micro                                                                2.0.15, 2.0.15-man
 [R.] minizip-ng                                                           4.0.9
 [R.] mlt                                                                  7.34.1
@@ -261,37 +244,14 @@ REMOVED
 [R.] nautilus                                                             49.4
 [R.] ncompress                                                            5.0
 [R.] network-manager-applet                                               1.36.0, 1.36.0-man
-[R-] nh                                                                   4.3.0
-[R.] nh-unwrapped                                                         4.3.0
 [R.] nilfs-utils                                                          2.2.12
 [R-] niri                                                                 25.11, 25.11-doc
-[R.] nix                                                                  2.31.3
-[R.] nix-cmd                                                              2.30.3+1, 2.31.3
-[R-] nix-eval-jobs                                                        2.94.0
-[R.] nix-expr                                                             2.30.3+1, 2.31.3
-[R-] nix-fast-build                                                       1.3.0
-[R.] nix-fetchers                                                         2.30.3+1, 2.31.3
-[R.] nix-flake                                                            2.30.3+1, 2.31.3
-[R-] nix-health                                                           0.4.0
-[R-] nix-init                                                             0.3.4
-[R-] nix-inspect                                                          0.1.2
-[R.] nix-inspect-worker                                                   0.1.2-unstable-2025-08-14
-[R.] nix-main                                                             2.30.3+1, 2.31.3
-[R.] nix-output-monitor                                                   2.1.8
-[R-] nix-prefetch-git                                                     26.05
-[R.] nix-store                                                            2.30.3+1, 2.31.3
-[R-] nix-update                                                           1.14.0
-[R.] nix-util                                                             2.30.3+1, 2.31.3
-[R.] nixpkgs-review                                                       3.7.0
 [R.] noto-fonts                                                           2026.03.01
 [R.] noto-fonts-cjk-sans                                                  2.004
 [R.] noto-fonts-cjk-serif                                                 2.003
 [R.] nspr                                                                 4.38.2
 [R.] nss                                                                  3.112.3
 [R.] ntfs3g                                                               2022.10.3
-[R-] nurl                                                                 0.4.0
-[R-] nvd                                                                  0.2.4
-[R.] onetbb                                                               2022.3.0
 [R.] openblas                                                             0.3.30
 [R.] opencl-headers                                                       2025.07.22
 [R.] opencolorio                                                          2.4.2
@@ -304,20 +264,6 @@ REMOVED
 [R.] parted                                                               3.6
 [R.] pavucontrol                                                          6.2
 [R.] pay-respects                                                         0.7.12
-[R.] perl5.42.0-Authen-SASL                                               2.1900
-[R.] perl5.42.0-CGI                                                       4.59
-[R.] perl5.42.0-CGI-Fast                                                  2.16
-[R.] perl5.42.0-Crypt-URandom                                             0.55
-[R.] perl5.42.0-Digest-HMAC                                               1.05
-[R.] perl5.42.0-FCGI                                                      0.82
-[R.] perl5.42.0-FCGI-ProcManager                                          0.28
-[R.] perl5.42.0-HTML-TagCloud                                             0.38
-[R.] perl5.42.0-IO-Socket-SSL                                             2.083
-[R.] perl5.42.0-Mozilla-CA                                                20230821
-[R.] perl5.42.0-Net-SMTP-SSL                                              1.04
-[R.] perl5.42.0-Net-SSLeay                                                1.92
-[R.] perl5.42.0-TermReadKey                                               2.38
-[R.] perl5.42.0-libnet                                                    3.15
 [R.] phonon                                                               4.11.1
 [R.] piper.yazi                                                           26.1.22-unstable-2026-01-24
 [R.] plemoljp-nf                                                          3.0.0
@@ -332,9 +278,7 @@ REMOVED
 [R.] protobuf                                                             32.1
 [R.] psmisc                                                               23.7
 [R.] psqlodbc                                                             17.00.0007
-[R.] pybind11-setup-hook                                                  <none>
 [R.] pystring                                                             1.1.4-unstable-2025-10-07
-[R.] python3.13-argcomplete                                               3.6.3
 [R.] python3.13-attrs                                                     25.4.0
 [R.] python3.13-brotli                                                    1.2.0
 [R.] python3.13-cffi                                                      2.0.0
@@ -345,7 +289,6 @@ REMOVED
 [R.] python3.13-dnspython                                                 2.8.0
 [R.] python3.13-docopt                                                    0.6.2
 [R.] python3.13-dotty-dict                                                1.3.1
-[R.] python3.13-google-re2                                                1.1.20251105
 [R.] python3.13-halo                                                      0.0.31
 [R.] python3.13-hid                                                       1.0.9
 [R.] python3.13-hjson                                                     3.0.2
@@ -363,7 +306,6 @@ REMOVED
 [R.] python3.13-platformdirs                                              4.5.1
 [R.] python3.13-pluggy                                                    1.6.0
 [R.] python3.13-ply                                                       3.11
-[R.] python3.13-pybind11                                                  3.0.1
 [R.] python3.13-pycparser                                                 3.00
 [R.] python3.13-pycryptodomex                                             3.23.0
 [R.] python3.13-pygments                                                  2.19.2
@@ -393,7 +335,6 @@ REMOVED
 [R.] qtwebchannel                                                         5.15.18
 [R.] qtx11extras                                                          5.15.18
 [R.] quazip                                                               1.5
-[R.] re2                                                                  2025-11-05
 [R.] restore.yazi                                                         25.5.31-unstable-2026-01-06
 [R.] resvg                                                                0.47.0
 [R.] rich-preview.yazi                                                    0-unstable-2026-02-11
@@ -415,13 +356,9 @@ REMOVED
 [R.] security-wrapper-gnome-keyring-daemon-x86_64-unknown-linux-musl      <none>
 [R.] shaderc                                                              2026.1-lib
 [R.] snmp.conf                                                            <none>
-[R-] sops                                                                 3.12.2
 [R.] sops-install-secrets                                                 0.0.1
 [R.] sqlite-connector-odbc                                                0.99991
 [R.] ssh-agent.service                                                    <none>
-[R.] starship                                                             1.24.2
-[R.] starship-config                                                      <none>
-[R-] statix                                                               0.5.8
 [R.] svox                                                                 0-unstable-2021-05-06
 [R.] swaylock.pam                                                         <none>
 [R.] swaync.service                                                       <none>
@@ -480,8 +417,6 @@ REMOVED
 [R.] webkitgtk                                                            2.52.0+abi=4.1
 [R.] webp-pixbuf-loader                                                   0.2.7
 [R-] wget                                                                 1.25.0, 1.25.0-info, 1.25.0-man
-[R.] wofi                                                                 1.5.3
-[R.] wofi-style                                                           <none>
 [R.] wxwidgets                                                            3.2.9
 [R-] xdg-desktop-portal-gnome                                             49.0
 [R.] xfconf                                                               4.20.0
@@ -502,5 +437,4 @@ REMOVED
 [R.] zathura-with-plugins                                                 2026.02.09
 [R.] zellij                                                               0.44.0
 [R-] zip                                                                  3.0
-[R.] zlib-ng                                                              2.3.3
 [R.] zoxide                                                               0.9.9

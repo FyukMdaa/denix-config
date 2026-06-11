@@ -17,6 +17,30 @@ delib.module {
       inputs.nix-index-database.overlays.nix-index
     ];
 
+    programs = {
+      nix-index-database.comma.enable = true;
+    };
+    
+    environment.systemPackages = with pkgs; [
+    	cachix
+    	nh
+    	sops
+    	nix-prefetch-git
+    	nix-inspect
+    	nurl
+    	nix-health
+    	nix-index
+    	nix-sweep
+    	nvd
+    	statix
+    	deadnix
+    	lix.nix-init
+    	lix.nix-direnv
+    	lix.nix-update
+    	lix.nix-eval-jobs
+    	lix.nix-fast-build
+    ];
+    
     nix = {
       package = pkgs.lixPackageSets.stable.lix;
 
