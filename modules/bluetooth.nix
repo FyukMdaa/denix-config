@@ -1,6 +1,6 @@
 { delib, ... }:
 delib.module {
-  name = "bluetooth";
+  name = "services.bluetooth";
   options = delib.moduleOptions ({ myconfig, ... }: {  
     enable = delib.boolOption myconfig.host.isLaptop;  
   });

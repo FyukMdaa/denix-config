@@ -17,13 +17,21 @@ delib.overlayModule {
     (_final: prev: {
       lix = prev.lixPackageSets.stable;
     })
+    (final: prev: 
+      inputs.apple-fonts.packages.${prev.stdenv.hostPlatform.system} or {}
+    )
     inputs.floorp.overlays.default
     inputs.nix-cachyos-kernel.overlays.default
-    (_final: prev: {
+    (final: prev: {
       local = builtins.listToAttrs (
         map (path: {
           name = baseNameOf (dirOf path);
-          value = prev.callPackage path { inherit inputs; };
+          # final に allowUnfree = true の設定を強制適用したスコープを作成して callPackage
+          value = (final.appendOverlays [
+            (_f: _p: {
+              config = (final.config or {}) // { allowUnfree = true; };
+            })
+          ]).callPackage path { inherit inputs; };
         }) (inputs.denix.lib.umport { path = ../packages; })
       );
     })

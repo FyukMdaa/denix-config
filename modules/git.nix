@@ -21,4 +21,14 @@ delib.module {
       };
     };
   };
+
+  myconfig.ifEnabled = {
+    programs.zeno.snippets = [
+      {
+	    name = "git commit";
+	    keyword = "gtcm";
+	    snippet = "git commit -m '{{commit_message}}'";
+      }
+    ];
+  };
 }

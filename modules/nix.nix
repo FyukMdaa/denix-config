@@ -40,6 +40,8 @@ delib.module {
     	lix.nix-eval-jobs
     	lix.nix-fast-build
     ];
+
+    nixpkgs.config.allowUnfreePredicate = pkg: true;
     
     nix = {
       package = pkgs.lixPackageSets.stable.lix;

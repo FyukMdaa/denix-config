@@ -3,7 +3,6 @@ REMOVED
 [R.] OpenUtau                                                             0.1.565
 [R.] SwayNotificationCenter                                               0.12.6
 [R.] X-Restart-Triggers-dbus                                              <none>
-[R-] X11-fonts                                                            <none>
 [R.] additional-cups-backends                                             <none>
 [R.] all                                                                  <none>
 [R.] apache-httpd                                                         2.4.66
@@ -50,7 +49,6 @@ REMOVED
 [R.] curl-impersonate                                                     1.5.1
 [R.] ddcutil                                                              2.2.6
 [R.] dee-unstable                                                         2017-06-16
-[R.] deno                                                                 2.6.10
 [R.] desktops                                                             <none>
 [R.] dfu-programmer                                                       1.1.0
 [R-] dfu-util                                                             0.11
@@ -60,8 +58,6 @@ REMOVED
 [R.] djvulibre                                                            3.5.29, 3.5.29-lib
 [R.] docbook-xsl-ns                                                       1.79.2
 [R.] etc-UPower-UPower.conf                                               <none>
-[R.] etc-xdg-xdg-desktop-portal-niri-portals.conf                         <none>
-[R.] etc-xdg-xdg-desktop-portal-portals.conf                              <none>
 [R.] etc-zinputrc                                                         <none>
 [R.] etc-zprofile                                                         <none>
 [R.] etc-zshenv                                                           <none>
@@ -75,7 +71,6 @@ REMOVED
 [R.] fix-qt-builtin-paths.sh                                              <none>
 [R.] fix-qt-module-paths.sh                                               <none>
 [R.] flex                                                                 2.6.4
-[R.] font-awesome                                                         7.2.0
 [R.] frameworkintegration                                                 6.24.0
 [R.] freeglut                                                             3.6.0
 [R.] freeglut-mupdf                                                       3.0.0-r13ae6aa2c2f9a7b4266fc2e6116c876237f40477
@@ -89,12 +84,7 @@ REMOVED
 [R.] gh                                                                   2.88.1
 [R.] gh-config.yml                                                        <none>
 [R.] ghostscript-with-X                                                   10.06.0, 10.06.0-fonts
-[R.] ghq                                                                  1.9.4
 [R.] girara                                                               2026.02.04
-[R.] git.yazi                                                             26.1.22-unstable-2026-02-27
-[R.] gitui                                                                0.28.0
-[R.] gitui-key-config.ron                                                 <none>
-[R.] gitui-theme.ron                                                      <none>
 [R.] glew                                                                 2.2.0
 [R.] glu                                                                  9.0.3
 [R.] gnome-autoar                                                         0.4.5
@@ -111,16 +101,10 @@ REMOVED
 [R.] gtk-layer-shell                                                      0.10.0
 [R.] gtkmm                                                                4.20.0
 [R.] gumbo                                                                0.13.2
-[R.] gvfs                                                                 1.58.4
 [R.] hackgen-nf-font                                                      2.10.0
 [R.] harfbuzz-icu                                                         12.3.0
 [R.] harvid                                                               0.9.1
 [R.] hdf5-cpp                                                             1.14.6
-[R-] helix                                                                25.07.1
-[R.] helix-default-runtime                                                <none>
-[R.] helix-grammars                                                       <none>
-[R.] helix-runtime                                                        <none>
-[R.] helix-unwrapped                                                      25.07.1
 [R.] hidapi                                                               0.15.0
 [R.] hm_.sshconfig                                                        <none>
 [R.] hm_config                                                            <none>
@@ -148,9 +132,6 @@ REMOVED
 [R.] knewstuff                                                            6.24.0
 [R.] knighttime                                                           6.6.3
 [R.] kpipewire                                                            6.6.3
-[R.] krita                                                                5.2.15
-[R.] krita-plugin-gmic                                                    3.2.4.1
-[R.] krita-unwrapped                                                      5.2.15
 [R.] kscreenlocker                                                        6.6.3
 [R.] kseexpr                                                              4.0.4.0
 [R.] kwayland                                                             6.6.3
@@ -246,9 +227,6 @@ REMOVED
 [R.] network-manager-applet                                               1.36.0, 1.36.0-man
 [R.] nilfs-utils                                                          2.2.12
 [R-] niri                                                                 25.11, 25.11-doc
-[R.] noto-fonts                                                           2026.03.01
-[R.] noto-fonts-cjk-sans                                                  2.004
-[R.] noto-fonts-cjk-serif                                                 2.003
 [R.] nspr                                                                 4.38.2
 [R.] nss                                                                  3.112.3
 [R.] ntfs3g                                                               2022.10.3
@@ -437,4 +415,3 @@ REMOVED
 [R.] zathura-with-plugins                                                 2026.02.09
 [R.] zellij                                                               0.44.0
 [R-] zip                                                                  3.0
-[R.] zoxide                                                               0.9.9

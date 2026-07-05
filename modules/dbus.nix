@@ -1,6 +1,6 @@
 { delib, pkgs, ... }:
 delib.module {
-  name = "dbus";
+  name = "services.dbus";
 
   nixos.always = {
     services.dbus = {

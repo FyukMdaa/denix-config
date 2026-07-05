@@ -5,21 +5,21 @@
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     nixpkgs-stable.url = "github:NixOS/nixpkgs/nixos-25.11";
     home-manager = {
-      url = "github:nix-community/home-manager/master";
-      inputs.nixpkgs.follows = "nixpkgs";
+    	url = "github:nix-community/home-manager/master";
+    	inputs.nixpkgs.follows = "nixpkgs";
     };
     denix = {
-      url = "github:yunfachi/denix";
-      inputs.nixpkgs.follows = "nixpkgs";
-      inputs.home-manager.follows = "home-manager";
+    	url = "github:yunfachi/denix";
+    	inputs.nixpkgs.follows = "nixpkgs";
+    	inputs.home-manager.follows = "home-manager";
     };
     sops = {
-      url = "github:Mic92/sops-nix";
-      inputs.nixpkgs.follows = "nixpkgs";
+    	url = "github:Mic92/sops-nix";
+    	inputs.nixpkgs.follows = "nixpkgs";
     };
     nix-index-database = {
-      url = "github:Mic92/nix-index-database";
-      inputs.nixpkgs.follows = "nixpkgs";
+    	url = "github:Mic92/nix-index-database";
+    	inputs.nixpkgs.follows = "nixpkgs";
     };
     treefmt-nix = {
       url = "github:numtide/treefmt-nix";
@@ -31,10 +31,13 @@
         url = "github:AdnanHodzic/auto-cpufreq";
         inputs.nixpkgs.follows = "nixpkgs";
     };
-    nixos-facter.url = "github:numtide/nixos-facter-modules";
     mango-ext = {
-      url = "github:ernestoCruz05/mango-ext";
-      inputs.nixpkgs.follows = "nixpkgs";
+    	url = "github:ernestoCruz05/mango-ext";
+    	inputs.nixpkgs.follows = "nixpkgs";
+    };
+    apple-fonts = {
+    	url= "github:Lyndeno/apple-fonts.nix";
+    	inputs.nixpkgs.follows = "nixpkgs";
     };
     floorp.url = "github:fyukmdaa/floorp-flake";
     twist.url = "github:emacs-twist/twist.nix";

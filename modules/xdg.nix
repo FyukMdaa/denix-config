@@ -1,7 +1,7 @@
 { delib, ... }:
 
 delib.module {
-  name = "xdg";
+  name = "services.xdg";
 
   options = delib.singleEnableOption true;
 
