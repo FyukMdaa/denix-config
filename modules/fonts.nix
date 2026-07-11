@@ -28,7 +28,7 @@ delib.module {
           material-design-icons
 
           # Apple fonts
-          local.sfmono-square
+          sfmono-square
           sf-pro
           sf-compact
           sf-mono

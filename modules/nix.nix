@@ -34,6 +34,7 @@ delib.module {
     	nvd
     	statix
     	deadnix
+    	devenv
     	lix.nix-init
     	lix.nix-direnv
     	lix.nix-update

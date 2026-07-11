@@ -40,6 +40,7 @@
     	inputs.nixpkgs.follows = "nixpkgs";
     };
     floorp.url = "github:fyukmdaa/floorp-flake";
+    fmpkgs.url = "github:fyukmdaa/fmnixpkgs";
     twist.url = "github:emacs-twist/twist.nix";
     emacs-config.url = "github:fyukmdaa/emacs-config";    
   };

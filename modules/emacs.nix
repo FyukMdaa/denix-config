@@ -8,11 +8,10 @@
 delib.module {
   name = "programs.emacs";
   options = delib.singleEnableOption false;
-
+  home.always = {
+    imports = [ inputs.emacs-config.homeModules.default ];
+  };
   home.ifEnabled = {
-    ...
-  }: {
-    imports = [ inputs.emacs-config.homeManagerModules.default ];
-    programs.fyukmdaa-emacs.enable = true;
+    programs.emacs-twist.enable = true;
   };
 }

@@ -22,18 +22,6 @@ delib.overlayModule {
     )
     inputs.floorp.overlays.default
     inputs.nix-cachyos-kernel.overlays.default
-    (final: prev: {
-      local = builtins.listToAttrs (
-        map (path: {
-          name = baseNameOf (dirOf path);
-          # final に allowUnfree = true の設定を強制適用したスコープを作成して callPackage
-          value = (final.appendOverlays [
-            (_f: _p: {
-              config = (final.config or {}) // { allowUnfree = true; };
-            })
-          ]).callPackage path { inherit inputs; };
-        }) (inputs.denix.lib.umport { path = ../packages; })
-      );
-    })
+    inputs.fmpkgs.overlays.default
   ];
 }
