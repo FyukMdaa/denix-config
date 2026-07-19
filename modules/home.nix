@@ -14,8 +14,6 @@ delib.module {
     {
       home = {
         inherit username;
-        # If you don't need Nix-Darwin, or if you're using it exclusively,
-        # you can keep the string here instead of the condition.
         homeDirectory = if pkgs.stdenv.isDarwin then "/Users/${username}" else "/home/${username}";
       };
     };

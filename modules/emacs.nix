@@ -12,6 +12,10 @@ delib.module {
     imports = [ inputs.emacs-config.homeModules.default ];
   };
   home.ifEnabled = {
-    programs.emacs-twist.enable = true;
+     programs.emacs-twist = {
+     	enable = true;
+     	emacsclient.enable = true;
+     	serviceIntegration.enable = true;
+     };
   };
 }

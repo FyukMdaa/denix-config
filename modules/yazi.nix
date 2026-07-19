@@ -25,6 +25,8 @@ delib.module {
     	  jump-to-char = jump-to-char;
     	  mount = mount;
     	  restore = restore;
+	      gvfs = gvfs;
+	      yafg = yafg;
     	};
     	keymap = {
     	  mgr.prepend_keymap = [

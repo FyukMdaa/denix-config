@@ -26,8 +26,13 @@ delib.module {
     programs.zeno.snippets = [
       {
 	    name = "git commit";
-	    keyword = "gtcm";
-	    snippet = "git commit -m '{{commit_message}}'";
+	    keyword = "Gcm";
+	    snippet = "git commit -m \"{{commit_message}}\"";
+      }
+      {
+        name = "git push";
+        keyword = "Gps";
+        snippet = "git push";
       }
     ];
   };

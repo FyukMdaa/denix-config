@@ -11,7 +11,7 @@ delib.host {
   };
 
   type = "laptop";
-  features = [ "cli" "gui" "mangowc" "draw" ];
+  features = [ "cli" "gui" "mangowc" "draw" "android-dev" "token2"];
     
   shared.myconfig = {
   	boot.loader = "systemd-boot";
@@ -27,6 +27,9 @@ delib.host {
     powermanager = {
       enable = true;
       type = "auto-cpufreq";
+    };
+    programs = {
+    	emacs.enable = true;
     };
   };
 }

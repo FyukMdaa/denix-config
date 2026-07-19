@@ -68,7 +68,7 @@
               hosts.features = {
                 enable = true;
                 # 利用したいロールをすべて定義します
-                features = [ "gui" "cli" "mangowc" "draw" "dtm" "server" ];
+                features = [ "gui" "cli" "mangowc" "draw" "dtm" "server" "video-edit" "android-dev" "token2" ];
                 # 各名称に対して "{feature}Featured" というブール値が自動生成されます
               };
             })

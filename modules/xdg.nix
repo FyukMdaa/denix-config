@@ -1,4 +1,4 @@
-{ delib, ... }:
+{ delib, pkgs, ... }:
 
 delib.module {
   name = "services.xdg";
@@ -6,6 +6,13 @@ delib.module {
   options = delib.singleEnableOption true;
 
   nixos.ifEnabled = { ... }: {
+    xdg.portal = {
+      enable = true;
+      extraPortals = [pkgs.xdg-desktop-portal-gtk];
+      config = {
+        common.default = ["gtk"];
+      };
+    };
     environment.sessionVariables = {
       XDG_CACHE_HOME  = "$HOME/.cache";
       XDG_CONFIG_HOME = "$HOME/.config";

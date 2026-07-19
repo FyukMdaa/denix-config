@@ -52,6 +52,10 @@ delib.module {
         	"SUPER,BTN_LEFT,moveresize,curmove"
         	"SUPER, BTN_RIGHT, canvas_drag_pan"
         ];
+
+        # モニター
+        focus_cross_monitor = 1;
+        exchange_cross_monitor = 1;
         
         # ギャップ・ボーダー
         gappih = 8;
